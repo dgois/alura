@@ -25,10 +25,16 @@ blockquote {
 aside {
   background-color: #3C1D3D;
   color: #F2FFFC;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
-nav a {
+main a {
+  color: #851944;
+}
+
+aside a {
   color: inherit; 
+  font-family: inherit;
 }
 
 .footer {
