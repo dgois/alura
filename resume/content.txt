@@ -1,0 +1,183 @@
+Denis willian Toledo Gois
+Software Engineer
+
+I can learn anything
+
+Photo
+
+
+Summary
+
+Passionate agile software engineer, with over 7 years engaging to delivery working quality software and achieve the customer expectation. Nowadays sweating blood to learn Clojure and enjoy a lot!
+
+Expertise:
+
+• 7 years experience designing, developing and maintaining Java applications.
+• Modular and cohesive development, using refactoring and testing to keep the optimal application design and easy maintenance.
+• Continuous use of good practices in software development, applying concepts like TDD and Continuous Integration.
+• Knowledge and practical usage about Agile methodologies.
+• System integration expertise, responsible for architectural analysis of high availability and resilient 
+
+Experience
+
+Company Name
+Walmart.com
+
+Title
+Software Engineer
+
+Location
+Barueri, São Paulo
+
+Time Period
+April 2014 - Present
+
+Description
+• Designed and implemented a Java Spring web-based application to integrate the Oracle Warehouse Management System (WMS) with the Intelligrated Warehouse Control System (WCS) using REST web services technology.
+• Programmed a messaging queue system to asynchronous integration between database and web service, guaranteeing message delivery.
+• Worked closely with Product Owner, Warehouse team and WCS provider, to resolve issues with the environment during user acceptance testing phase.
+• Utilized technologies: Java, Spring Framework, RestEasy, AMQP, Hibernate Validation, Jackson, Junit, Velocity, Eclipse, Linux, Jenkins, Jetty, Maven, Git and Scrum.
+
+Main Projects
+Automation
+Inventory Management System
+
+----
+
+Company Name
+Sonda
+
+Title
+JEE and Documentum Developer
+
+Location
+Indaiatuba, São Paulo
+
+Time Period
+Agosto 2011 - Abril 2014
+
+Description
+• Promoted to lead and manage 3 teams of Java programmers to meet critical delivery deadlines, using Agile methodology to increase deliveries by 50% and reach client expectations.
+• Defined and implemented Continuous Integration System using Hudson tool, to delivery new functionalities and corrected issues weekly instead of once a year.
+• Maintained legacy code using refactoring to correct issues and improve the code quality.
+• Trained 4 interns to work with JEE and open source frameworks.
+• Utilized technologies: JEE, Jboss Application Server, Hibernate, Junit, TFS, Eclipse and Linux.
+
+Main Projects
+Usiminas
+Sebrae
+Procergs
+
+----
+
+Company Name
+Uol
+
+Title
+JEE Developer
+
+Location
+Indaiatuba, São Paulo
+
+Time Period
+Setembro 2010 - Agosto 2011
+
+Description
+• Developed web service integration between Microsoft and UOL cloud product to attend 1,5k users, using WSDL and REST technology. 
+• Worked with team to design data table relationship and system architecture. 
+• Utilized Technologies: Servlets, Jetty, Maven, Hudson, JPA using Hibernate, Velocity, Subversion, Eclipse, and Linux.
+
+Main Projects
+Integration of BPOS 265
+
+----
+
+Company Name
+Kaizen Consultoria e Serviços em Informática Ltda
+
+Title
+JEE Developer
+
+Location
+Indaiatuba, São Paulo
+
+Time Period
+April 2009 - Setembro 2010
+
+Description
+• Developed Portal website HR Brazilian Association, a portal used by 1k users. 
+• Design, programmed and deployed Content Management System using EMC Documentum products.
+• Utilized Technologies: Java Portal technology, deploy in Websphere IBM server portal, developing using Rational Application Developer Tools, using JSF, HTML and JavaScript
+
+Main Projects
+Portal HR Brazilian Association
+Content Managament of Teresina TCU
+
+----
+
+Company Name
+HST
+
+Title
+JEE Developer
+
+Location
+Indaiatuba, São Paulo
+
+Time Period
+March 2008 - April 2009
+
+Description
+• Maintained JSF and Struts web application deployed in JBoss application server and Tomcat web application server. Implemented data access using Hibernate connection to Oracle and SQL Server databases.
+• Functional analysis, requirement gathering with final users and  developed reports using JasperReports.
+• Participated in the design and developed reference web application architectural for JSF projects.
+• Utilized Technologies: Struts, JSF, Oracle, SqlServer, JasperReports, Quartz, XML, HTML, JavaScript, Ant, Maven, Hibernate.
+
+Main Projects
+Reference Project
+CRM for Telefonica Company
+
+----
+
+Courses
+
+Independent Coursework
+MongoDB for Java Developers
+Intro to HTML and CSS
+
+----
+
+Certifications
+
+Oracle Certified Java Programmer 1.6 May - 2010
+
+----
+
+Languages
+
+Portuguese Native
+English Advanced
+
+----
+
+Skills
+
+----
+
+Education
+
+School
+Faculdade de Tecnologia de São Paulo
+
+Dates attended
+2006 - 2008
+
+Field of Study
+Developing Systems
+
+Activities
+ACM Programming Contest Team
+
+Description
+
+
