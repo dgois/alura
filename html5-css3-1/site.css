@@ -2,42 +2,154 @@ body {
   font-family: "Crimson Text", "Times New Roman", serif;
   background-color: #F2FFFC;
   font-size: 120%;
+  line-height: 1.5;
 }
 
 h1, h2 {
   font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-main h1 {
+p {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+h2 {
+  font-size: 30px;
+  clear: both;
+}
+
+.cabecalho {
   text-align: center;
   color: #FFF;
   background-color: #851944;
+  padding: 25px;
+  border-bottom: 10px solid #000;
+  margin: 0px;
+  font-size: 60px;
+  text-transform: uppercase;
 }
 
-p {
-  text-align: justify;
+.conteudo {
+  width: 720px;
+  margin: auto;
+  padding: 30px 0;
 }
 
-blockquote {
-  background-color: #D9E5E3;
-}
-
-aside {
-  background-color: #3C1D3D;
-  color: #F2FFFC;
-  font-family: "Open Sans Condensed", sans-serif;
-}
-
-main a {
+.conteudo a {
   color: #851944;
 }
 
-aside a {
+.recomendacoes {
+  background-color: #D9E5E3;
+  border: 10px solid #C2CCCA;
+  margin: 0px;
+  width: 250px;
+  box-sizing: border-box;
+  margin: 20px 40px;
+}
+
+.fiat {
+  float: right;
+}
+
+.petrobras {
+  float: left;
+}
+
+blockquote, .navegacao-site, footer {
+    padding: 20px;
+}
+
+.navegacao-site {
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.navegacao-site a {
   color: inherit; 
   font-family: inherit;
+}
+
+.navegacao-site h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.icones-sociais li {
+  display: inline-block;
+}
+
+.icones-sociais a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-indent: -9999px;
+}
+
+.github {
+  background-image: url(github.png);
+}
+
+.twitter {
+  background-image: url(twitter.png);
+}
+
+.linkedin {
+  background-image: url(linkedin.png);
 }
 
 .footer {
   background-color: #000;
   color: #F2FFFC;
 } 
+
+article {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #CCC;
+  margin-bottom: 30px;
+}
+
+.leia-mais {
+  font-size: 24px;
+  padding: 8px;
+  margin: 16px;
+  display: block;
+  background-color: #E6E7E8;
+  text-align: center;
+}
+
+cite {
+  font-style: italic;
+  float:right;
+}
+
+img, aside {
+  float: right;
+  width: 15%;
+}
+
+aside {
+  clear: right;
+  box-sizing: border-box;
+}
+
+main {
+  float: left;
+  width: 85%;
+}
+
+.footer {
+  clear: both;
+}
