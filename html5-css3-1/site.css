@@ -75,6 +75,8 @@ blockquote, .navegacao-site, footer {
   font-family: "Open Sans Condensed", sans-serif;
   text-align: center;
   text-transform: lowercase;
+  border-bottom: 10px solid #000;
+  border-left: 10px solid #000;
 }
 
 .navegacao-site a {
@@ -135,21 +137,40 @@ cite {
   float:right;
 }
 
-img, aside {
-  float: right;
-  width: 15%;
+.minha-foto {
+  /*width: 300px;
+  height: 300px;*/
+  border-left: 10px solid #000;
+  border-bottom: 10px solid #000;
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  top: 0;
+  right: 0;
 }
 
-aside {
-  clear: right;
+.minha-foto, .navegacao-site {
+  float: right;
+}
+
+.navegacao-site {
   box-sizing: border-box;
+  width: 15%;
+  position: relative;
+  top: 300px;
 }
 
 main {
   float: left;
   width: 85%;
+  padding-bottom: 80px;
 }
 
 .footer {
   clear: both;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
 }
