@@ -1,0 +1,137 @@
+body {
+  font-family: "Crimson Text", "Times New Roman", serif;
+  background-color: #F2FFFC;
+  font-size: 120%;
+  line-height: 1.5;
+}
+
+h1, h2 {
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+p {
+  text-align: justify;
+  margin: 20px 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+h2 {
+  font-size: 30px;
+  clear: both;
+}
+
+.cabecalho {
+  text-align: center;
+  color: #FFF;
+  background-color: #851944;
+  padding: 25px;
+  border-bottom: 10px solid #000;
+  margin: 0px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.conteudo {
+  width: 720px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.conteudo a {
+  color: #851944;
+}
+
+.navegacao-site {
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+  font-family: "Open Sans Condensed", sans-serif;
+  text-align: center;
+  text-transform: lowercase;
+  border-bottom: 10px solid #000;
+  border-left: 10px solid #000;
+}
+
+.navegacao-site a {
+  color: inherit; 
+  font-family: inherit;
+}
+
+.navegacao-site h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.icones-sociais li {
+  display: inline-block;
+}
+
+.icones-sociais a {
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-indent: -9999px;
+}
+
+.github {
+  background-image: url(../img/github.png);
+}
+
+.twitter {
+  background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+  background-image: url(../img/linkedin.png);
+}
+
+.footer {
+  background-color: #000;
+  color: #F2FFFC;
+}
+
+.minha-foto {
+  border-left: 10px solid #000;
+  border-bottom: 10px solid #000;
+  box-sizing: border-box;
+  position: absolute;
+  width: 300px;
+  top: 0;
+  right: 0;
+}
+
+.minha-foto, .navegacao-site {
+  float: right;
+}
+
+.navegacao-site {
+  box-sizing: border-box;
+  width: 15%;
+  position: relative;
+  top: 300px;
+}
+
+.navegacao-site, footer {
+  padding: 20px;
+}
+
+main {
+  float: left;
+  width: 85%;
+  padding-bottom: 80px;
+}
+
+.footer {
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
