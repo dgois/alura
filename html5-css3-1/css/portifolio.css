@@ -1,27 +1,15 @@
-figure {
+.trabalhos li {
+  display: inline-block;
+  width: 45%;
+  height: 270px;
   border: 8px solid #000;
   padding: 16px;
   background-color: #FAFFFC;
-  width: 344px;
   box-sizing: border-box;
-  margin-top: 16px;
+  margin-right: 16px;
   margin-bottom: 16px;
 }
 
-.bmw, .ibm {
-  margin-right: 16px;
-  float: left;
-}
-
-.uol, .g1 {
-  margin-left: 16px;
-  float: left;
-}
-
-.ibm, .g1 {
-  margin-top: 16px;
-}
-
-img {
+.trabalhos img {
   width: 100%;
 }
