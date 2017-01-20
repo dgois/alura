@@ -1,0 +1,124 @@
+.subtitulo-principal {
+    font-size: .35em;
+    text-transform: none;
+}
+
+.foto-home {
+    height: 12.5rem;
+}
+.saudacao p {
+    color: #99A;
+    line-height: 1;
+    margin: 4em;
+    padding: 0 2em;
+    font-size: 1rem;
+}
+.saudacao-inicio {
+    color: #889;
+    font-size: 6.5em;
+}
+.saudacao-ultima-linha {
+    text-align: right;
+    display: block;
+}
+.saudacao strong {
+    color: #000;
+    font-size: 4em;
+}
+.saudacao em {
+    color: #851944;
+    font-size: 6.5em;
+}
+.botao-index {
+    background-color: #851944;
+    color: #FFF;
+    border: .2em solid black;
+    width: 40ch;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4em;
+    padding: .9em 0;
+}
+.secao-inicio h2 {
+    text-shadow: 2px 2px #000;
+    text-transform: uppercase;
+    font-size: 312%;
+}
+.trabalhos {
+    background-color: #3C1D3D;
+    border-top: 0.625rem solid #000;
+    border-bottom: 0.625rem solid #000;
+}
+.trabalhos h2 {
+    color: #FFF;
+    margin: .8em 0 .8em .8em;
+}
+.trabalhos ul {
+    overflow: hidden;
+    border: 0.625rem solid black;
+    margin: 0 2.496em 2.496em 2.496em;
+}
+.trabalhos li {
+    float: left;
+    width: 33.333%;
+}
+.trabalhos img {
+    width: 100%;
+    display: block;
+}
+.blog {
+    background-color: #999;
+    color: #FFF;
+    border-bottom: 0.625rem solid #851944;
+}
+.blog li a {
+    color: #FCF;
+    padding: .5em;
+    display: block;
+}
+
+.blog ol {
+    margin: 2.5em 3.5em 3.5em 3em;
+}
+
+.blog h2 {
+    margin-left: .8em;
+    padding-top: .8em;
+}
+
+.blog small {
+    position: relative;
+    top: -1em;
+    margin-left: 3.12em;
+    font-size: 0.8em;
+}
+
+footer {
+    background-color: #000;
+    color: #FFF;
+}
+
+footer h2 {
+    font-size: 312%;
+    margin-left: .8em;
+    padding-top: .8em;
+}
+
+footer p {
+    position: relative;
+    top: -.5em;
+    margin-left: 3.12em;
+    font-size: 0.8em;
+    padding-bottom: 2em;
+}
+
+footer a {
+    color: #F99;
+}
+
+main {
+    width: 100%;
+    padding-bottom: 0;
+    float: none;
+}
