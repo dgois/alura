@@ -6,6 +6,74 @@
 .foto-home {
     height: 12.5rem;
 }
+
+header {
+    position: relative;
+}
+
+.palavra-home {
+    font-family: "Shadows Into Light", cursive;
+    font-size: 1.2rem;
+    color:#D5447E;
+    text-transform: capitalize;
+    position: absolute;
+}
+
+.eficiencia {
+    top: 12.5%;
+    left: 12.5%;
+}
+
+.boas-praticas {
+    top: 37.5%;
+    left: 25%;
+}
+
+.codigo-limpo {
+    top: 19%;
+    left: 62.5%;
+}
+
+.css3 {
+    top: 70%;
+    left: 30%;
+}
+
+.html5 {
+    top: 55%;
+    left: 65%;
+}
+
+.javascript {
+    top: 70%;
+    left: 85%;
+}
+
+.acessibilidade {
+    top: 40%;
+    left: 75%;
+}
+
+.responsivo {
+    top: 5%;
+    left: 90%;
+}
+
+.otimizacoes {
+    top: 60%;
+    left: 8%;
+}
+
+.design {
+    top: 85%;
+    left: 15%;
+}
+
+.agilidade {
+    top: 15%;
+    left: 35%;   
+}
+
 .saudacao p {
     color: #99A;
     line-height: 1;
@@ -71,7 +139,13 @@
     background-color: #999;
     color: #FFF;
     border-bottom: 0.625rem solid #851944;
+    position: relative;
 }
+
+.blog li {
+    width: 31%;
+}
+
 .blog li a {
     color: #FCF;
     padding: .5em;
@@ -92,6 +166,25 @@
     top: -1em;
     margin-left: 3.12em;
     font-size: 0.8em;
+}
+
+.mais-recente {
+    background-color: #F2FFFC;
+}
+
+.blog .mais-recente a {
+    color: #F44336;
+}
+
+.inicio-post {
+    background-color: #F2FFFC;
+    position: absolute;
+    color: #000;
+    top: 7em;
+    right: 3em;
+    height: 6em;
+    padding: 1em;
+    width: 40em;
 }
 
 footer {
