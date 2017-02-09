@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>
+    Cubo em 3D
+  </title>
+</head>
+<style type="text/css">
+
+  body {
+    perspective: 700px;
+  }
+
+  .cubo {
+    position: relative;
+    transform-style: preserve-3d;
+    /*transform: rotateY(10deg) rotateX(10deg);*/
+  }
+
+  .face {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 3px solid #000;
+    position: absolute;
+    left: 300px;
+    top: 100px;
+  }
+
+  .face1 {
+    transform: translateZ(50px);
+    background-color: blue;
+  }
+
+  .face2 {
+    transform: translateX(50px) rotateY(90deg);
+    background-color: red;
+  }
+
+  .face3 {
+    transform: translateX(-50px) rotateY(-90deg);
+    background-color: green;
+  }
+
+  .face4 {
+    transform: translateY(50px) rotateX(90deg);
+    background-color: yellow;
+  }
+
+  .face5 {
+    transform: translateY(-50px) rotateX(-90deg);
+    background-color: gray;
+  }
+
+  .face6 {
+    transform: translateZ(-50px) rotateX(180deg);
+    background-color: orange;
+  }
+
+</style>
+<body>
+  <div class="cubo">
+      <div class="face face1"></div>
+      <div class="face face2"></div>
+      <div class="face face3"></div>
+      <div class="face face4"></div>
+      <div class="face face5"></div>
+      <div class="face face6"></div>
+  </div>
+</body>
+</html>
