@@ -8,10 +8,15 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    box-shadow: 0 0 1em #000;
 }
 
 header {
     position: relative;
+}
+
+header h1 {
+    text-shadow: 5px 5px #000;
 }
 
 .siga-me-twitter {
@@ -36,14 +41,16 @@ header {
 
 body {
     perspective: 6px;
-    transform-style: preserve-3d;
     perspective-origin: 50% 160px
 }
 
 html, body {
     height: 100%;
     overflow-x: hidden;
-    background-color: orange;
+}
+
+.palavras-home, .titulo-principal {
+    transform-style: preserve-3d;
 }
 
 .palavras-home {
@@ -61,13 +68,12 @@ html, body {
 .palavra-home {
     font-family: "Shadows Into Light", cursive;
     font-size: 1.2rem;
-    color:#D5447E;
+    color: rgba(255, 127, 127, 0.5);
     text-transform: capitalize;
     position: absolute;
 }
 
 .eficiencia {
-    font-size: 400%;
     top: 31.5%;
     left: 25.5%;
     -webkit-transform: rotate(15deg);
@@ -84,25 +90,28 @@ html, body {
     -moz-transform: rotate(-15deg);
     -o-transform: rotate(-15deg);
     -ms-transform: rotate(-15deg);
-    transform: translate(-50%, -50%) rotate(-15deg) translateZ(0.4px) scale(0.10);
+    transform: translate(-50%, -50%) rotate(-15deg) translateZ(.6px) scale(0.10);
+    opacity: .7;
 }
 
 .codigo-limpo {
     top: 19%;
     left: 67.5%;
-    transform: translate(-50%, -50%) rotate(8deg) translateZ(-0.4px) scale(0.10);
+    transform: translate(-50%, -50%) rotate(8deg) translateZ(1px) scale(0.10);
 }
 
 .css3 {
     top: 70%;
     left: 30%;
     transform: translate(-50%, -50%) rotate(-8deg) translateZ(0.8px) scale(0.10);
+    opacity: .7;
 }
 
 .html5 {
     top: 55%;
     left: 65%;
     transform: translate(-50%, -50%) rotate(11deg) translateZ(0.2px) scale(0.10);
+    opacity: .5;
 }
 
 .javascript {
@@ -120,25 +129,29 @@ html, body {
 .responsivo {
     top: 60%;
     left: 100%;
-    transform: translate(-50%, -50%) rotate(17deg) translateZ(-0.8px) scale(0.10);
+    transform: translate(-50%, -50%) rotate(17deg) translateZ(0.8px) scale(0.10);
+    opacity: .7;
 }
 
 .otimizacoes {
     top: 60%;
     left: 8%;
-    transform: translate(-50%, -50%) rotate(-15deg) translateZ(-0.4px) scale(0.10);
+    transform: translate(-50%, -50%) rotate(-15deg) translateZ(0.4px) scale(0.10);
+    opacity: .7;
 }
 
 .design {
     top: 75%;
     left: 15%;
     transform: translate(-50%, -50%) rotate(15deg) translateZ(0.6px) scale(0.10);
+    opacity: .7;
 }
 
 .agilidade {
     top: 15%;
     left: 35%;  
-    transform: translate(-50%, -50%) rotate(-10deg) translateZ(0.2px) scale(0.10); 
+    transform: translate(-50%, -50%) rotate(-10deg) translateZ(0.2px) scale(0.10);
+    opacity: .5; 
 }
 
 .saudacao p {
@@ -176,9 +189,10 @@ html, body {
     margin: 0 auto;
     margin-bottom: 4em;
     padding: .9em 0;
+    box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
 }
 .secao-inicio h2 {
-    text-shadow: 2px 2px #000;
+    text-shadow: 5px 5px #000;
     text-transform: uppercase;
     font-size: 312%;
 }

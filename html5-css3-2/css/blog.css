@@ -9,6 +9,9 @@
 
 .post-blog {
     padding-bottom: 4.17%;
-    border-bottom: 1px solid #ccc;
     margin-bottom: 2.78%;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: bottom center;
 }
