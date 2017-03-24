@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pseudo Elements</title>
+
+  <style type="text/css">
+    /*p::first-letter {
+      font-size: 3em;
+    }
+
+    p:before {
+      content: '"';
+      font-size: 10em;
+      position: absolute;
+      color: #999;
+      opacity: .5;
+    }*/
+
+    .red-square {
+      width: 200px;
+      height: 200px;
+      border: solid 1px black;
+
+    }
+
+    .red-square::before {
+      content: '';
+      background-color: red;
+      width: 100px;
+      height: 100px;
+      display: block;
+    }
+
+    .red-square::before {
+      content: attr(title);
+    }
+
+    a:hover::after {
+      content: attr(data-legenda);
+      background-color: #000;
+      color: #FFF;
+      position: absolute;
+      top: 1.1em;
+    }
+
+    section {
+      position: relative;
+    }
+
+    .cartoon-ballon {
+      height: 50px;
+      width: 150px;
+      border-radius: .8em;
+      border: 3px solid #000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    }
+
+    .cartoon-ballon p {
+      font-weight: bold;
+      font-family: "Comic Sans MS"
+      margin: 0;
+    }
+
+    .cartoon-ballon::after {
+      content: "";
+      height: 15px;
+      width: 15px;
+      transform: rotate(45deg);
+      border-bottom: 3px solid #000;
+      border-right: 3px solid #000;
+      position: absolute;
+      top: 86%;
+      left: 75%;
+      background-color: #FFF;
+    }
+
+  </style>
+</head>
+<body>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget rutrum dui. Quisque tempus neque ut ante vehicula imperdiet et a nunc. Vivamus finibus ut est vitae commodo. Sed augue lorem, suscipit eget tortor ut, aliquam sodales arcu. Aliquam quis felis bibendum, posuere purus sit amet, commodo diam. Suspendisse eleifend a odio rhoncus fringilla. Cras in erat ut sapien elementum facilisis. Suspendisse congue vel lacus nec rutrum. Suspendisse consequat lacus eu nisl semper tempus. Nulla ac massa sodales, efficitur leo at, auctor velit. Aenean convallis nisl et ante vulputate, sit amet finibus lectus posuere. Fusce ornare turpis pulvinar nibh viverra, in congue enim ultricies. Ut cursus feugiat orci, a tincidunt augue ullamcorper vitae. Vestibulum interdum orci quis elit blandit, vel congue velit dictum.</p>
+
+  <section>
+    <a href="#" data-legenda="Clique em mim">Link</a>
+  </section>
+
+  <p>Nunc tempor elit erat, vitae pulvinar sapien tristique sed. Morbi lacinia urna lorem, a molestie lacus euismod maximus. Suspendisse eu porta tortor, a sodales est. Pellentesque efficitur at nisi vel iaculis. Nam aliquet, odio elementum pulvinar sagittis, justo risus rhoncus nibh, in gravida justo ex ac nisl. Aliquam eleifend elementum est tincidunt elementum. Etiam venenatis fermentum massa tincidunt tempor.</p>
+
+  <p>Cras non dictum leo. Fusce vehicula luctus lectus. Nunc felis augue, volutpat quis dolor vitae, tincidunt ultrices velit. Vivamus urna tellus, efficitur a lacinia eu, pretium sit amet dolor. Sed fermentum purus egestas, bibendum turpis rutrum, pharetra odio. Quisque commodo id turpis sed lobortis. Aliquam mattis justo suscipit lorem ullamcorper mollis. Phasellus sed interdum est.</p>
+
+  <div class="red-square"></div>
+
+  <div title="Test"></div>
+
+  <div class="cartoon-ballon">
+    <p>Oi! Tudo bem?</p>
+  </div>
+  
+</body>
+</html>

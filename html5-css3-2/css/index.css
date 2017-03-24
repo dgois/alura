@@ -200,6 +200,15 @@ html, body {
     background-color: #3C1D3D;
     border-top: 0.625rem solid #000;
     border-bottom: 0.625rem solid #000;
+    background-image: linear-gradient(135deg,
+                        transparent,
+                        transparent 14px,
+                        rgba(0, 0, 0, .1) 14px,
+                        rgba(0, 0, 0, .1) 15px,
+                        transparent 15px,
+                        transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
 }
 .trabalhos h2 {
     color: #FFF;
@@ -251,12 +260,25 @@ html, body {
     font-size: 0.8em;
 }
 
-.mais-recente {
+/*.blog .mais-recente a {
+    color: #F44336;
+}*/
+
+.blog li:hover {
     background-color: #F2FFFC;
+    color: #F26;
 }
 
-.blog .mais-recente a {
-    color: #F44336;
+.blog li:hover > .inicio-post {
+    visibility: visible;
+}
+
+.blog li:hover > .segundo {
+    transform: translateY(50px);
+}
+
+.blog li:hover > .terceiro {
+    transform: translateY(100px);
 }
 
 .inicio-post {
@@ -268,6 +290,7 @@ html, body {
     height: 6em;
     padding: 1em;
     width: 40em;
+    visibility: hidden;
 }
 
 footer {

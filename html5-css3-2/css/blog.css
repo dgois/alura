@@ -7,11 +7,11 @@
     background-color: #E6E7E8;
 }
 
-.post-blog {
-    padding-bottom: 4.17%;
-    margin-bottom: 2.78%;
+.post-blog + .post-blog {
+    padding-top: 4.17%;
+    margin-top: 2.78%;
     background-image: linear-gradient(to right, transparent, #CCC, transparent);
     background-size: 100% 1px;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: top center;
 }
