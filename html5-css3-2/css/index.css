@@ -1,3 +1,7 @@
+body {
+    display: block;
+}
+
 .subtitulo-principal {
     font-size: .35em;
     text-transform: none;
@@ -34,9 +38,12 @@ header h1 {
     font-size: 1.3rem;
     font-family: "Open Sans Condensed", "Arial", sans-serif;
     color: #fff;
-
-    transform: translate(6.5765em, -2.4745em) rotate(45deg);
+    transform: translate(calc(0.707 * (3.5em - 100%) + 100%), calc(-0.707 * 3.5em)) 
+               rotate(45deg);
     transform-origin: 0 0;
+    animation: aparece 0.5s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
 }
 
 body {
@@ -59,6 +66,15 @@ html, body {
     left: 0;
     width: 100%;
     height: 100%;
+    animation: aparece 2s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes aparece {
+    from {
+        opacity: 0;
+        transform: scale(0.001);
+    }
 }
 
 .palavras-home li {
@@ -128,7 +144,7 @@ html, body {
 
 .responsivo {
     top: 60%;
-    left: 100%;
+    left: 75%;
     transform: translate(-50%, -50%) rotate(17deg) translateZ(0.8px) scale(0.10);
     opacity: .7;
 }
@@ -173,12 +189,31 @@ html, body {
     color: #000;
     font-size: 4em;
 }
+
 .saudacao em {
     color: #851944;
     font-size: 6.5em;
     transform: rotate(-5deg) skew(-10deg);
     display: inline-block;
+    animation: flutue 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    position: relative;
 }
+
+@keyframes flutue {
+    from {
+        top: -5px;
+    }
+    to {
+        top: 5px;
+    }
+}
+
+.saudacao:hover em {
+    animation-play-state: paused;
+}
+
 .botao-index {
     background-color: #851944;
     color: #FFF;
@@ -190,12 +225,23 @@ html, body {
     margin-bottom: 4em;
     padding: .9em 0;
     box-shadow: 0 0 1em #000, inset 0 0 .5em #FFF;
+    text-decoration: none;
 }
+
+.botao-index:focus,
+.botao-index:hover {
+    box-shadow: 0 0 2em #FA9;
+    color: #FFF;
+    background-color: #C54974;
+    transition: .5s ease-in-out;
+}
+
 .secao-inicio h2 {
     text-shadow: 5px 5px #000;
     text-transform: uppercase;
     font-size: 312%;
 }
+
 .trabalhos {
     background-color: #3C1D3D;
     border-top: 0.625rem solid #000;
@@ -209,24 +255,30 @@ html, body {
                         transparent);
     background-size: 20px 20px;
     background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
 }
+
 .trabalhos h2 {
     color: #FFF;
     margin: .8em 0 .8em .8em;
 }
+
 .trabalhos ul {
-    overflow: hidden;
+    display: flex;
     border: 0.625rem solid black;
     margin: 0 2.496em 2.496em 2.496em;
 }
+
 .trabalhos li {
-    float: left;
-    width: 33.333%;
+    flex: 1;
 }
+
 .trabalhos img {
     width: 100%;
     display: block;
 }
+
 .blog {
     background-color: #999;
     color: #FFF;
@@ -259,10 +311,6 @@ html, body {
     margin-left: 3.12em;
     font-size: 0.8em;
 }
-
-/*.blog .mais-recente a {
-    color: #F44336;
-}*/
 
 .blog li:hover {
     background-color: #F2FFFC;

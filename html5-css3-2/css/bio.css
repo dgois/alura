@@ -1,3 +1,16 @@
+h1 {
+    animation: aparece 2s;
+}
+
+@keyframes aparece {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 .citacao-bio {
     background-color: #D9E5E3;
     border: .63rem solid #C2CCCA;
@@ -5,12 +18,17 @@
     margin: 1.26rem 2.52rem;
     width: 34.72%;
     box-sizing: border-box;
+    position: relative;
+    transition:  box-shadow 1s ease-in, transform 1s linear;
+    /*transition: transform 1s linear, box-shadow 1s ease-in, box-shadow 1s ease-in, transform 1s linear;*/
+    transition-delay: 1s, 0s;
 }
 
 .citacao-bio:hover, 
 .citacao-bio:focus {
     z-index: 9999;
     box-shadow: 0 0 0 9999px rgba(127, 127, 127, .8);
+    transition-delay: 0s, 1s;
 }
 
 .citacao-bio:nth-of-type(even):hover,
@@ -52,4 +70,38 @@
 
 .citacao-bio > p {
     position: relative;
+}
+
+.habilidades {
+    border-collapse: separate;
+    border-spacing: 0.25em;
+    margin: 1em 0;
+}
+
+.habilidades th {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.habilidades thead th {
+    background-color: #3C1D3D;
+}
+
+.habilidades tbody th {
+    background-color: #851944;
+}
+
+.habilidades td {
+    background-color: #EEE;
+}
+
+.habilidades th, 
+.habilidades td {
+    padding: 1em;
+    vertical-align: middle;
+}
+
+.habilidades .center {
+    font-style: italic;
+    text-align: center;
 }

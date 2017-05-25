@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flex Box Test</title>
+  <style type="text/css">
+    .container {
+      display: flex;
+    }
+
+    .box {
+      border: solid 1px #000;
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .box:nth-child(2) {
+      flex: 2;
+    } 
+
+    .box p {
+      flex: 1;
+    }
+
+    .btn {
+      background: #3498db;
+      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      border-radius: 28px;
+      font-family: Arial;
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      text-decoration: none;
+      margin-left: calc(50% - 30px);
+      width: 60px;
+}
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="box">
+    <h3>Titulo</h3>
+    <p>Vestibulum hendrerit, risus in ullamcorper mattis, justo urna mattis erat, sodales faucibus elit elit et dui. Sed pretium tellus velit, id pharetra enim sodales vitae. Curabitur hendrerit venenatis eleifend. Aenean tellus ligula, placerat ut neque in, porttitor mattis magna. </p>
+    <a href="#" class="btn">Button</a>
+  </div>
+  <div class="box">
+    <h3>Titulo</h3>
+    <p>Vestibulum hendrerit, risus in ullamcorper mattis, justo urna mattis erat, sodales faucibus elit elit et dui. Sed pretium tellus velit, id pharetra enim sodales vitae. Curabitur hendrerit venenatis eleifend. Aenean tellus ligula, placerat ut neque in, porttitor mattis magna. Sed hendrerit elit et iaculis congue. Donec in velit ultrices, euismod lectus vehicula, aliquam mauris. Donec quis neque sed libero accumsan eleifend nec sed purus. Vestibulum velit erat, ullamcorper vitae fringilla vitae, facilisis vitae lorem.</p>
+    <a href="#" class="btn">Button</a>
+  </div>
+
+  <div class="box">
+    <h3>Titulo</h3>
+    <p>Vestibulum hendrerit, risus in ullamcorper mattis, justo urna mattis erat, sodales faucibus elit elit et dui. Sed pretium tellus velit, id pharetra enim sodales vitae. Curabitur hendrerit venenatis eleifend. Aenean tellus ligula, placerat ut neque in, porttitor mattis magna. Sed hendrerit elit et iaculis congue. Donec in velit ultrices, euismod lectus vehicula, aliquam mauris. </p>
+    <a href="#" class="btn">Button</a>
+  </div>
+
+</div>
+
+</body>
+</html>

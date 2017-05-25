@@ -3,6 +3,31 @@ body {
     background-color: #F2FFFC;
     font-size: 120%;
     line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main {
+    flex: 1;
+    flex-grow: 1;
+    padding-bottom: 5rem;
+}
+
+main a {
+    color: #851944;
+}
+
+main p {
+    text-align: justify;
+    margin: 1.05em 0;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 19rem;
 }
 
 h1,
@@ -23,61 +48,12 @@ h1 {
     color: #FFF;
     padding: 2rem;
     border-bottom: .5rem solid #000;
+    flex: 1 1 100%;
 }
 
 .subtitulo-texto {
     font-size: 156%;
     clear: both;
-}
-
-main a {
-    color: #851944;
-}
-
-main p {
-    text-align: justify;
-    margin: 1.05em 0;
-}
-
-.navegacao-site {
-    text-align: center;
-    background-color: #3C1D3D;
-    color: #F2FFFC;
-    padding: 1.25rem;
-}
-
-.navegacao-site a {
-    color: inherit;
-    font-family: "Open Sans Condensed", "Arial", sans-serif;
-    text-transform: lowercase;
-}
-
-.navegacao-site h1 {
-    font-size: 156%;
-    margin-bottom: 1.56rem;
-}
-
-.rodape-pagina {
-    background-image: radial-gradient(
-        ellipse at bottom left, 
-        rgba(60, 29, 61, 0.8), 
-        rgba(60, 29, 61, 0.8) 64%, 
-        black 60%, 
-        black 70%, 
-        transparent 70%, 
-        transparent);
-    color: #DDD;
-    padding: 1.25rem;
-    clear: both;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-size: 25% 100%;
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    text-shadow: 2px 2px #000;
-
 }
 
 .container {
@@ -93,6 +69,33 @@ strong {
 
 em {
     font-style: italic;
+}
+
+.navegacao-site {
+    text-align: center;
+    background-color: #3C1D3D;
+    color: #F2FFFC;
+    padding: 1.25rem;
+    width: calc(0.9 * 300px);
+    padding-top: 9em;
+}
+
+.navegacao-site a {
+    color: inherit;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+    text-transform: lowercase;
+}
+
+.navegacao-site h1 {
+    font-size: 156%;
+    margin-bottom: 1.56rem;
+}
+
+.minha-foto,
+.navegacao-site {
+    border-left: .5rem solid black;
+    border-bottom: .5rem solid black;
+    box-sizing: border-box;
 }
 
 .icones-redes-sociais li {
@@ -146,33 +149,6 @@ em {
     transform: rotate(45deg);
 }
 
-main {
-    width: 80%;
-    float: left;
-    padding-bottom: 5rem;
-}
-
-.minha-foto,
-.navegacao-site {
-    border-left: .5rem solid black;
-    border-bottom: .5rem solid black;
-    box-sizing: border-box;
-}
-
-.navegacao-site {
-    width: 20%;
-    float: right;
-    position: relative;
-    top: 19rem;
-}
-
-.minha-foto {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 19rem;
-}
-
 main a:hover, 
 main a:focus, 
 footer a:hover,
@@ -185,4 +161,26 @@ footer a:focus,
 .navegacao-site a:hover,
 .navegacao-site a:focus {
     text-shadow: 0 0 0.3em #FFC0CB;
+}
+
+.rodape-pagina {
+    background-image: radial-gradient(
+        ellipse at bottom left, 
+        rgba(60, 29, 61, 0.8), 
+        rgba(60, 29, 61, 0.8) 64%, 
+        black 60%, 
+        black 70%, 
+        transparent 70%, 
+        transparent);
+    color: #DDD;
+    padding: 1.25rem;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-size: 25% 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    text-shadow: 2px 2px #000;
 }

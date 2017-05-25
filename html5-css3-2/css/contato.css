@@ -1,0 +1,94 @@
+.legenda {
+  font-weight: bold;
+  display: block;
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+.label {
+  display: block;
+}
+
+.campo-texto {
+  padding: .4em;
+  border: solid 1px #CCC;
+  font-family: inherit;
+  font-size: .9em;
+}
+
+.campo-texto-grande {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.grupo-outro-assunto {
+  display: inline-block;
+}
+
+.focused:focus {
+  background-color: #FFFFE6;
+}
+
+input:invalid, textarea {
+  box-shadow: 0 0 3px #FF0000;
+}
+
+button {
+  float: right;
+  box-sizing: border-box;
+  border: 0;
+  width: 10em;
+  height: 3em;
+  background-color: #3C1D3D;
+  color: #F2FFFC;
+  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-size: 100%;
+  /*margin-left: auto;
+  margin-right: 0;*/
+  margin-top: 1em;
+}
+
+button:hover,
+button:focus {
+  background-color: #8C1D3D;
+}
+
+input[value="outro"] ~ input {
+    display: none;
+}
+
+input[value="outro"]:checked ~ input {
+  display: inline;
+}
+
+.com-icone + input {
+  position: relative;
+  width: calc(100% - 2em);
+  left: 2em;
+}
+
+.com-icone {
+  position: relative;
+}
+
+.com-icone::after {
+  content: "";
+  background-image: url(../imagens/usuario.png);
+  background-size: 50% 50%;
+  background-color: #8C1D3D;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
+label[for="nome"]::after {
+  background-image: url(../imagens/usuario.png);
+}
+
+label[for="email"]::after {
+  background-image: url(../imagens/email.png);
+}

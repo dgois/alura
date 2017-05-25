@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Transition and Animation Test</title>
+  <style type="text/css">
+
+    body {
+      background-color: black;
+    }
+
+    .botao {
+      background-color: green;
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      
+      /*animation: quica 1s infinite;
+      animation-direction: alternate;
+      animation-timing-function: ease-in;*/
+    }
+
+    @keyframes quica {
+    from {
+        top: 50%;
+    }
+    90% {
+        transform: rotate(-2deg);
+    }
+    90% {
+        transform: rotate(2deg);
+    }
+    to {
+        top: 55%;
+    }
+}
+
+
+    .botao:hover {
+      transition: background-color 1s, box-shadow 2s, transform 2s, border-radius 2s;
+      background-color: red;
+      box-shadow: 0 0 20px white;
+      transform: scale(1.1, 1.1);
+      border-radius: 50%;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="botao"></div>
+
+</body>
+</html>

@@ -14,7 +14,18 @@
   .cubo {
     position: relative;
     transform-style: preserve-3d;
-    /*transform: rotateY(10deg) rotateX(10deg);*/
+    animation: rotacionar 4s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes rotacionar {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(-360deg);
+    }
   }
 
   .face {
