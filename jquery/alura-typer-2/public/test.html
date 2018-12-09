@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        .invisivel {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="dropdown">Menu</h1>
+    <ul style="display: none;" id="opcoes">
+        <li>Massas</li>
+        <li>Carnes</li>
+        <li>Saladas e Vegetais</li>
+    </ul>
+    <script src="js/jquery.js"></script>
+    <script>
+        // $('#botao-promocao').click(function() {
+        //     $('.promocoes').toggle();
+        // })
+
+        // $('#botao-promocao').click(function() {
+        //     $('.promocoes').toggleClass('invisivel');
+        // });
+
+        // $('#botao-promocao').click(function() {
+        //     var p = $('.promocoes');
+
+        //     if (p.is(':visible')) {
+        //         p.hide();
+        //     } else {
+        //         p.show();
+        //     }
+        // });
+
+        $('#botao').click(function() {
+            $('.funcionarios').slidedown(2000);
+        });
+
+        $('li').dblclick(function() {
+            $(this).fadeOut(function() {
+                $(this).remove();
+            });
+        })
+    </script>
+</body>
+
+</html>

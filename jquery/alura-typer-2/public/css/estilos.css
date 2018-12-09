@@ -1,0 +1,51 @@
+body {
+    overflow: scroll;
+}
+
+.phrase-input {
+    font-size: 20px;
+    height: 130px;
+    border: 3px solid black;
+}
+
+.phrase {
+    font-size: 20px;
+    text-align: left;
+}
+
+.disabled-input {
+    background-color: lightgray;
+}
+
+.icone {
+    vertical-align: middle;
+}
+
+.error-border {
+    border: 3px solid red;
+}
+
+.correct-border {
+    border: 3px solid green;
+}
+
+.scoreboard {
+    display: none;
+}
+
+.error {
+    display: none;
+    color: red;
+}
+
+.spinner {
+    display: none;
+}
+
+#phrase-id {
+    width: 50px;
+}
+
+#sync {
+    float: right;
+}
